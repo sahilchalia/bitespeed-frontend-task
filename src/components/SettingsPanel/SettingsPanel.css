@@ -1,0 +1,31 @@
+.settings-panel-wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+.settings-panel-header {
+  padding: 0.6rem 1rem;
+  display: flex;
+  align-items: center;
+}
+.settings-panel-header .navigate-back-icon {
+  height: 25px;
+  cursor: pointer;
+}
+.settings-panel-header span {
+  flex: 1;
+  text-align: center;
+}
+.settings-panel-main {
+  padding: 1rem 0.5rem 1.4rem;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+}
+.settings-panel-main textarea {
+  border-radius: 0.25rem;
+  padding: 0.4rem 0.6rem;
+  font: inherit;
+  font-size: 0.9rem;
+}
